@@ -1,0 +1,21 @@
+header {
+    border: solid 1px goldenrod;
+}
+
+nav {
+    display: block;
+}
+
+nav > ul {
+    list-style-type: none;
+    height: 20px;
+}
+
+nav > ul > li {
+    float: left;
+}
+
+nav > ul > li a {
+    display: block;
+    margin: 0 15px;
+}
