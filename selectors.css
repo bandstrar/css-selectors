@@ -39,3 +39,33 @@ li .disabled {
 .active {
     color: yellow;
 }
+
+.parent > div > div:first-of-type {
+    color: red;
+}
+
+.parent > div > h4:first-of-type + div {
+    color: blue;
+}
+
+.parent > div > div:first-of-type + h4 {
+    background-color: red;
+}
+
+.parent > div > h4:last-of-type {
+    background-color: blue;
+}
+
+.grandparent > h4 {
+    border: solid 1px black;
+    border-radius: 20px;
+}
+
+.promo {
+    font-weight: bold;
+    color: gold;
+}
+
+input[type=text] {
+    height: 25px;
+}
